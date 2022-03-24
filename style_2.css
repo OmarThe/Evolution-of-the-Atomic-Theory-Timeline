@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*, html,body{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'Times New Roman', sans-serif;
+	perspective:800px;
+}
+body{
+	background-color:#227093;
+	width:100%;
+	min-height:100vh;
+	display:flex;
+	flex-direction: column;
+	margin-left:50px;
+	margin-bottom: 50px;
+}
+.title_cover {
+	margin-top: 50px;
+	font-size: 50px;
+}
+.main_text {
+	text-align: left;
+	font-size: 24px;
+	margin-top: 10px;
+}
+.regular_cover {
+	margin-top: 70px;
+}
+.lists {
+	font-size: 18px;
+	margin-left: 50px;
+}
+.subtitle_cover {
+	margin-top: 50px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.image_cover {
+  margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.side_by_side_cover {
+	margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.main_text_1 {
+  text-align: left;
+	font-size: 24px;
+	margin-top: 30px;
+  margin: 30px;
+
+}
+.image_cover_1 {
+  margin-left: 20px;
+}
+.formula_cover {
+  margin-left: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popover__wrapper {
+    position: relative;
+    margin-top: 1.5rem;
+    display: inline-block; 
+  }
+  .popover__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -150px;
+    background-color: #bfbfbf;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: auto;
+ 
+    top: 100px;
+  }
+  .popover__content:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #bfbfbf transparent;
+    transition-duration: 0.3s;
+  }
+  .popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+  .popover__message {
+    text-align: center;
+	font-size: 48px;
+	font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  
